@@ -1,0 +1,71 @@
+li, a{
+    list-style-type: none;
+    color: red;
+    padding: 8px;
+    text-decoration: none;
+    display: inline;
+}
+ul{
+    background-color: #000000;
+    padding-bottom:20px;
+    padding-top:10px; 
+    margin: 0; 
+}
+
+li a:hover{
+ background-color: white;
+}
+.b-image{
+    margin: auto;
+    background-image: url("image/blog1.jpg");  
+    background-size:cover;
+    height: 100%;
+    width:100%;
+}
+.header{
+    color: rgb(188, 209, 0);
+    text-align: center;
+    margin:0;
+    font-size: 80px;
+    padding-top:250px;
+}
+button{
+    background-color:rgb(7, 7, 6);
+    color:rgb(188, 209, 0);
+    padding-left:10px;
+    padding-right:10px;
+    border-radius: 20%;
+    line-height: 30px;
+    border:none;
+}
+.card{
+    border-radius: 100px;
+}
+/* .text{
+    font-size: 20px;
+    color: rgb(63, 58, 29);
+    text-align: auto;
+} */
+.card-head{
+    padding-top:50px;
+    text-align: center;
+}
+.name{
+    color: rgb(59, 57, 29);
+    font-size:20px;
+}
+.title{
+    color: gold;
+    font-size: 30px;
+}
+
+.date{
+    color: rgb(202, 175, 23);
+}
+.time{
+    color: rgb(126, 30, 30);
+}
+.trial{
+    margin-top: 30px;
+}
+

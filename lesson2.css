@@ -1,0 +1,24 @@
+.image{
+    background-image: url("image/21.jpg");
+    width: 100%;
+    height: 700px;
+    border: 2px red;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+table{
+    float: right;
+    background-color: rgb(222, 235, 236);
+
+    
+}
+th, td{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+tr:hover{
+    color: rgb(191, 230, 18);
+    background-color: #ffffff ;
+}

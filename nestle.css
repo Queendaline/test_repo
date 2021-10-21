@@ -1,0 +1,80 @@
+
+#toggle-container{
+    display: grid;
+    width:fit-content;
+    margin-top:10px;
+    float: right;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#one,#two,#three{
+    background:black;
+    width:30px;
+    height: 3px;
+    margin-top: 5px;
+}
+.toggle-content{
+    display: none;
+    margin-left: 700px;
+    margin-top: 20px;
+}
+.toggle-content a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.toggle-content a:hover{
+    color: blue;
+}
+.carousel-header{
+    text-align: center;
+    padding-top: 20px;
+}
+hr{
+    border: 3px rgb(247, 241, 241);
+    padding: 40px;
+}
+.news{
+    background: #b30059;
+    height: 125%;
+    width: 100%;
+}
+.b-news{
+    background-color:#b30059;
+    color: white;
+    float: right;
+}
+.news, p, h2, h6, hr{
+    color: white;
+}
+.explore{
+    background-color: white;
+    
+}
+.explore, h4{
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(31, 5, 5);
+}
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 180px;
+    padding-top: 20px;
+  }
+div.gallery img {
+    width: 100%;
+    height: auto;
+  
+    padding: 20%;
+    border: 11px;
+ border-radius: 100%;
+  }
+  div.gallery .card  {
+ border-radius: auto;
+ border:none;
+ box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  
